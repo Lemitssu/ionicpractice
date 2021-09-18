@@ -15,7 +15,6 @@ const routes: Routes = [
     path: 'action-sheet',
     loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
   },
- 
   {
     path: '',
     redirectTo: 'inicio',
